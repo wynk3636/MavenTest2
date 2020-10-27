@@ -29,4 +29,4 @@ jobs:
         app-name: 'maventest2'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b9285f4c8e0462089e98806d9ecbe17 }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: '${{ github.workspace }}/target/*.jar'
